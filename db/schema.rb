@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2022_08_15_185353) do
     t.string "new_client"
     t.text "description"
     t.string "color_or_gray"
-    t.string "pref_pic_1_url"
+    t.string "ref_pic_1_url"
     t.string "ref_pic_2_url"
     t.string "ref_pic_3_url"
     t.string "ref_pic_4_url"
