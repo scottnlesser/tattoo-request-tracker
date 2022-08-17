@@ -1,5 +1,5 @@
 class Api::V1::RequestsController < ApplicationController
-    protect_from_forgery unless: -> { request.format.json? }
+    protect_from_forgery with: :exception
 
     def create
         @request = Request.new(request_params)
