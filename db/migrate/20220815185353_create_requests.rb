@@ -9,19 +9,19 @@ class CreateRequests < ActiveRecord::Migration[5.2]
       t.string :mobile
       t.string :preferred_contact
       t.string :new_client
-      t.text :description
+      t.text   :description
       t.string :color_or_gray
-      t.string :ref_pic_urls
+      t.text   :ref_pic_urls
       t.string :size
       t.string :placement
       t.string :cover_up
-      t.string :cover_up_ref_url
+      t.text   :cover_up_ref_url
       t.string :pref_artist
       t.string :pref_days
       t.string :pref_times
       t.string :local_client
       t.string :coming_from
-      t.text :client_notes
+      t.text   :client_notes
       t.string :ip_address
     end
   end
